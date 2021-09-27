@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.main-content {
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form input{
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    margin: 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.submit {
+    width: 400px;
+    height: 40px;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(57, 57, 59);
+    cursor: pointer;
+}
+
+.forgot-password{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 3px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+.forgot-password button{
+    border-style: none;
+    background-color: rgb(40, 99, 177);
+    border-radius: 6px;
+    padding: 8px;
+    margin-left: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.logout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logout button{
+    font-size: 1.3rem;
+    background-color: rgb(163, 36, 43);
+    color: white;
+    border-radius: 6px;
+    border-style: none;
+    padding: 10px;
+    margin:10px
+}
+
